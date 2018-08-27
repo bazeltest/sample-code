@@ -4,7 +4,7 @@
   "description": "This is for testing purposes only. Do not put any serious code inside it, note it is PUBLIC",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --verbose"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
     "tslib": "^1.9.2",
     "tslint": "^5.10.0",
     "typescript": "^2.9.2"
+  },
+  "dependencies": {
+    "fastify": "^1.10.0"
   }
 }
